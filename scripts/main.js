@@ -1,9 +1,1 @@
-console.log('\'Allo \'Allo!');
-
-$(document).ready(function() {
-	if ($(window).width() < 768) {
-		$.fn.fullpage.destroy(all);
-	} else {
-		$('#fullpage').fullpage();
-	}
-});
+"use strict";$(document).ready(function(){$(window).width()<768?$.fn.fullpage.destroy(all):$("#fullpage").fullpage()});
